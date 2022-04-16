@@ -20,6 +20,7 @@ Widget noteCard(Function()? onTab, QueryDocumentSnapshot doc) {
           style: AppStyle.mainTitle,
            ),
 SizedBox(height: 0.4,),
+//Exeption
             Text(doc["creation_date"],
           style: AppStyle.dateTitle,
            ),
